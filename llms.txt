@@ -1,0 +1,62 @@
+# Birmingham
+
+> Geotechnical engineering company in United States, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Active Passive Anchor Design](https://birmingham.geotechnical-engineering.biz/active-passive-anchor-design/)
+- [Atterberg Limits](https://birmingham.geotechnical-engineering.biz/atterberg-limits/)
+- [Bearing Capacity Analysis](https://birmingham.geotechnical-engineering.biz/bearing-capacity-analysis/)
+- [Cbr Study Road Design](https://birmingham.geotechnical-engineering.biz/cbr-study-road-design/)
+- [Collapsible Soil Evaluation](https://birmingham.geotechnical-engineering.biz/collapsible-soil-evaluation/)
+- [Cone Penetration](https://birmingham.geotechnical-engineering.biz/cone-penetration/)
+- [Contaminated Soil Remediation](https://birmingham.geotechnical-engineering.biz/contaminated-soil-remediation/)
+- [Debris Flow Analysis](https://birmingham.geotechnical-engineering.biz/debris-flow-analysis/)
+- [Deep Soil Mixing](https://birmingham.geotechnical-engineering.biz/deep-soil-mixing/)
+- [Diaphragm Wall Design](https://birmingham.geotechnical-engineering.biz/diaphragm-wall-design/)
+- [Differential Settlement Analysis](https://birmingham.geotechnical-engineering.biz/differential-settlement-analysis/)
+- [Direct Shear](https://birmingham.geotechnical-engineering.biz/direct-shear/)
+- [Driven Pile Design](https://birmingham.geotechnical-engineering.biz/driven-pile-design/)
+- [Dynamic Compaction Design](https://birmingham.geotechnical-engineering.biz/dynamic-compaction-design/)
+- [Existing Pavement Evaluation](https://birmingham.geotechnical-engineering.biz/existing-pavement-evaluation/)
+- [Expansive Soil Evaluation](https://birmingham.geotechnical-engineering.biz/expansive-soil-evaluation/)
+- [Exploratory Pit](https://birmingham.geotechnical-engineering.biz/exploratory-pit/)
+- [Factor Safety](https://birmingham.geotechnical-engineering.biz/factor-safety/)
+- [Field Density](https://birmingham.geotechnical-engineering.biz/field-density/)
+- [Field Permeability](https://birmingham.geotechnical-engineering.biz/field-permeability/)
+- [Field Vane Shear](https://birmingham.geotechnical-engineering.biz/field-vane-shear/)
+- [Flexible Pavement Design](https://birmingham.geotechnical-engineering.biz/flexible-pavement-design/)
+- [Foundations](https://birmingham.geotechnical-engineering.biz/foundations/)
+- [Foundations Fill](https://birmingham.geotechnical-engineering.biz/foundations-fill/)
+- [Geocell Design](https://birmingham.geotechnical-engineering.biz/geocell-design/)
+- [Geogrid Specification](https://birmingham.geotechnical-engineering.biz/geogrid-specification/)
+- [Geomembrane Specification](https://birmingham.geotechnical-engineering.biz/geomembrane-specification/)
+- [Geophysics](https://birmingham.geotechnical-engineering.biz/geophysics/)
+- [Geotechnical Analysis Soft Soil](https://birmingham.geotechnical-engineering.biz/geotechnical-analysis-soft-soil/)
+- [Geotechnical Design Deep Excavations](https://birmingham.geotechnical-engineering.biz/geotechnical-design-deep-excavations/)
+- [Geotechnical Drainage Design](https://birmingham.geotechnical-engineering.biz/geotechnical-drainage-design/)
+- [Geotechnical Instrumentation](https://birmingham.geotechnical-engineering.biz/geotechnical-instrumentation/)
+- [Geotechnical Slope Monitoring](https://birmingham.geotechnical-engineering.biz/geotechnical-slope-monitoring/)
+- [Grain Size Analysis](https://birmingham.geotechnical-engineering.biz/grain-size-analysis/)
+- [Ground Improvement](https://birmingham.geotechnical-engineering.biz/ground-improvement/)
+- [Ground Penetrating Radar](https://birmingham.geotechnical-engineering.biz/ground-penetrating-radar/)
+- [Grouting Design](https://birmingham.geotechnical-engineering.biz/grouting-design/)
+- [Hvsr Microtremor Survey](https://birmingham.geotechnical-engineering.biz/hvsr-microtremor-survey/)
+- [In Situ Testing](https://birmingham.geotechnical-engineering.biz/in-situ-testing/)
+- [Investigation](https://birmingham.geotechnical-engineering.biz/investigation/)
+- [Jet Grouting Design](https://birmingham.geotechnical-engineering.biz/jet-grouting-design/)
+- [Laboratory](https://birmingham.geotechnical-engineering.biz/laboratory/)
+- [Laboratory Cbr](https://birmingham.geotechnical-engineering.biz/laboratory-cbr/)
+- [Laboratory Permeability](https://birmingham.geotechnical-engineering.biz/laboratory-permeability/)
+- [Landfill Geotechnics](https://birmingham.geotechnical-engineering.biz/landfill-geotechnics/)
+- [Landslide Assessment](https://birmingham.geotechnical-engineering.biz/landslide-assessment/)
+- [Lime Cement Stabilization](https://birmingham.geotechnical-engineering.biz/lime-cement-stabilization/)
+- [Mechanically Stabilized Earth](https://birmingham.geotechnical-engineering.biz/mechanically-stabilized-earth/)
+- [Menard Pressuremeter](https://birmingham.geotechnical-engineering.biz/menard-pressuremeter/)
+- [Micropile Design](https://birmingham.geotechnical-engineering.biz/micropile-design/)
+
+## Contact
+- Website: https://birmingham.geotechnical-engineering.biz/
+
+## About
+This page provides information about geotechnical engineering services available in United States.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
