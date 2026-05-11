@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
@@ -42,7 +47,7 @@ summary::-webkit-details-marker { display: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 
 header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-    .content-area { flex-direction: column; }
+    
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 .header-contact a:hover { color: white; }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -95,7 +100,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
 details[open] summary::before { content: '− '; }
-    main { padding: 1.5rem; }
+    
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -111,7 +116,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .cta .whatsapp-btn:hover { background: #1eb853; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-    .header-top { flex-direction: column; text-align: center; }
+    
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 .cat-row:hover{background:rgba(255,255,255,.05)}
 :root {
@@ -123,7 +128,7 @@ footer a { color: rgba(255,255,255,0.85); }
     --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
     --font-b: 'Lora', 'Segoe UI', sans-serif;
 }
-    .container { padding: 1rem; }
+    
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
@@ -136,7 +141,9 @@ main p { margin-bottom: 1rem; color: #334155; }
 }
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}</style>
+.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main p { margin-bottom: 1rem; color: #334155; }
   body{background:#FAFAFA!important;color:#18181B!important}
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Birmingham</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>Birmingham expanded rapidly during the Industrial Revolution, with extensive infill of old canals, railway cuttings, and former mining voids. This legacy means many sites contain made ground, buried structures, and variable groundwater regimes that traditional drainage methods cannot handle without detailed geotechnical input. If drainage design ignores the perched water tables common in the city’s fill materials, hydrostatic pressures build up behind retaining walls and beneath slabs, leading to structural distress, slope failures, or water ingress into basements. Proper geotechnical drainage design prevents these failures by characterising the ground’s hydraulic behaviour before construction begins.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Q&A</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>How much does geotechnical drainage design cost in Birmingham?</summary><p>Typical fees for a drainage design package in Birmingham range between £730 and £2,150, depending on site complexity, number of design sections, and whether full hydraulic modelling is required. This includes a site visit, interpretation of ground investigation data, and a written design report with cross-sections and specifications. Exact pricing is provided after a brief scoping call.</p></details><details><summary>What groundwater problems are common in Birmingham?</summary><p>Perched water tables within made ground are the most frequent issue, especially on former industrial land along the canal network. In the Edgbaston and Harborne areas, high water tables in the underlying sandstone cause persistent seepage into basements. Seasonal fluctuations in the Tame valley gravels can also trigger slope instability along road and rail cuttings if drainage is not maintained.</p></details><details><summary>Do I need a drainage design if I already have a geotechnical report?</summary><p>A standard geotechnical report describes soil and groundwater conditions but rarely provides the detailed hydraulic <a href="../foundations-fill/" data-interlink="1">analysis</a> needed to size drains, pumps, or filters. A separate drainage design translates that data into a working system — specifying pipe diameters, trench depths, filter gradings, and dewatering flow rates. We often receive borehole logs from previous investigations and develop the drainage design from those records.</p></details><details><summary>How long does the drainage design process take?</summary><p>For a typical residential or small commercial site in Birmingham, the design is completed within 7 to 14 working days from receipt of the ground investigation data. Larger infrastructure projects involving multiple drainage zones or complex hydraulic modelling may take 3 to 4 weeks. We prioritise projects with tight construction programmes and can accelerate the timeline when needed.</p></details>
             </section>
 

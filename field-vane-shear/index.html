@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
@@ -42,7 +47,7 @@ summary::-webkit-details-marker { display: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 
 header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-    .content-area { flex-direction: column; }
+    
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 .header-contact a:hover { color: white; }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -95,7 +100,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
 details[open] summary::before { content: '− '; }
-    main { padding: 1.5rem; }
+    
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -111,7 +116,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .cta .whatsapp-btn:hover { background: #1eb853; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-    .header-top { flex-direction: column; text-align: center; }
+    
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 .cat-row:hover{background:rgba(255,255,255,.05)}
 :root {
@@ -123,7 +128,7 @@ footer a { color: rgba(255,255,255,0.85); }
     --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
     --font-b: 'Lora', 'Segoe UI', sans-serif;
 }
-    .container { padding: 1rem; }
+    
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
@@ -136,7 +141,9 @@ main p { margin-bottom: 1rem; color: #334155; }
 }
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}</style>
+.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main p { margin-bottom: 1rem; color: #334155; }
   body{background:#FAFAFA!important;color:#18181B!important}
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Birmingham</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>Birmingham’s climate — 650 mm of annual rainfall and a high water table in the glacial till — keeps clay layers close to saturation year-round. This means the undrained strength you measure in summer may drop by 30% after a wet winter. If you rely solely on SPT N-values, you risk overestimating bearing capacity. The VST gives you a direct, site-specific cu value. We always run the test at 1 m intervals or at every change in stratum. For projects near the canal network or the River Cole, where soft alluvial clay can exceed 4 m in thickness, VST data becomes the controlling parameter for foundation depth and excavation support design.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Q&A</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>When should I choose VST over a standard SPT in Birmingham?</summary><p>You should choose VST whenever the site contains soft to firm clays or silts — common in Birmingham’s alluvial deposits along the River Tame, Rea, and Cole. SPT is unreliable in these materials because the driving energy can cause pore-pressure build-up and give artificially high blow counts. VST measures undrained shear strength directly, which is the controlling parameter for bearing capacity and excavation stability in cohesive soils.</p></details><details><summary>How much does a field vane shear test cost in Birmingham?</summary><p>A standard VST at a single depth (manual head, shallow) typically costs between £520 and £1,140, depending on site access, number of test depths, and whether you need disturbed samples for laboratory classification. Deep VST with a drill rig adds mobilisation and depth-related charges. Contact us for a site-specific quote — we serve Birmingham and the whole West Midlands.</p></details><details><summary>What is the difference between peak and remoulded vane strength?</summary><p>Peak strength is the maximum torque recorded as the vane rotates through undisturbed soil. It represents the intact undrained shear strength. After rotation, we continue to turn the vane rapidly to remould the soil — this simulates the effect of construction disturbance. The remoulded strength is the lower value measured after remoulding. The ratio of peak to remoulded strength is the sensitivity index. In Birmingham’s glacial tills, sensitivity typically ranges from 2 to 5, meaning the soil can lose 50–80% of its strength when disturbed. This is critical for excavation support and temporary works design.</p></details><details><summary>Do you follow BS or ASTM for VST in Birmingham?</summary><p>We follow both BS 1377-7:1990 and BS 1377-9. The British standard specifies a rotation rate of 6° per minute and a vane height-to-diameter ratio of 2:1. Our equipment is calibrated annually against UKAS-traceable torque springs. All results are reported in accordance with Eurocode 7 requirements. For projects requiring UKAS-accredited testing, we can provide a scope-specific quotation.</p></details>
             </section>
 

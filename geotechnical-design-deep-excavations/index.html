@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
@@ -42,7 +47,7 @@ summary::-webkit-details-marker { display: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 
 header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-    .content-area { flex-direction: column; }
+    
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 .header-contact a:hover { color: white; }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -95,7 +100,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
 details[open] summary::before { content: '− '; }
-    main { padding: 1.5rem; }
+    
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -111,7 +116,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .cta .whatsapp-btn:hover { background: #1eb853; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-    .header-top { flex-direction: column; text-align: center; }
+    
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 .cat-row:hover{background:rgba(255,255,255,.05)}
 :root {
@@ -123,7 +128,7 @@ footer a { color: rgba(255,255,255,0.85); }
     --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
     --font-b: 'Lora', 'Segoe UI', sans-serif;
 }
-    .container { padding: 1rem; }
+    
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
@@ -136,7 +141,9 @@ main p { margin-bottom: 1rem; color: #334155; }
 }
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}</style>
+.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main p { margin-bottom: 1rem; color: #334155; }
   body{background:#FAFAFA!important;color:#18181B!important}
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Birmingham</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>Eurocode 7 (BS EN 1997-1:2004) and the UK National Annex mandate that the design of deep excavations must account for three limit states: ultimate, serviceability, and hydraulic failure. In Birmingham, the risk of hydraulic heave is particularly high along the River Rea corridor, where artesian pressures exist beneath the clay layers. A design that omits a detailed groundwater monitoring plan can lead to sudden base failure. The cost of such an event in a dense urban area like the Jewellery Quarter runs into the hundreds of thousands. This is why every geotechnical design of deep excavations in Birmingham must include a standpipe or piezometer array.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Q&A</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>What is the typical cost range for a geotechnical design of deep excavations in Birmingham?</summary><p>For a standard urban basement in Birmingham, the geotechnical design fee typically ranges between £1,720 and £5,810. This covers the wall <a href="../foundations-fill/" data-interlink="1">analysis</a>, groundwater modelling, and preparation of the design report. The final figure depends on excavation geometry, number of support levels, and the complexity of the ground model.</p></details><details><summary>Why is the Mercia Mudstone so variable in Birmingham?</summary><p>The Mercia Mudstone in Birmingham is not a uniform rock. It contains interbedded siltstone, gypsum veins, and sandstone lenses that alter its strength and stiffness. Weathering profiles also differ: the top 3–5 m is often completely weathered to a firm clay, while deeper layers are moderately strong. A good design must account for this vertical zonation.</p></details><details><summary>How deep can a basement be excavated in Birmingham without temporary works?</summary><p>In most Birmingham soils, any excavation deeper than 1.2 m requires temporary works or a battered slope. For basements exceeding 3.0 m, a full geotechnical design of deep excavations is mandatory under CDM Regulations 2015. The presence of groundwater typically limits unsupported depth to 2.0 m even in stiff till.</p></details><details><summary>What is the difference between a secant pile wall and a sheet pile wall for Birmingham ground?</summary><p>Secant piles are stiffer and provide a watertight barrier, making them ideal for inner-city basements next to existing structures. Sheet piles are more cost-effective and faster to install, but they may not seal effectively through the gravels and cobbles of the Birmingham terrace deposits. The choice depends on the allowable movement and groundwater cut-off requirements.</p></details>
             </section>
 

@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
@@ -42,7 +47,7 @@ summary::-webkit-details-marker { display: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 
 header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-    .content-area { flex-direction: column; }
+    
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 .header-contact a:hover { color: white; }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -95,7 +100,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
 details[open] summary::before { content: '− '; }
-    main { padding: 1.5rem; }
+    
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -111,7 +116,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .cta .whatsapp-btn:hover { background: #1eb853; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-    .header-top { flex-direction: column; text-align: center; }
+    
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 .cat-row:hover{background:rgba(255,255,255,.05)}
 :root {
@@ -123,7 +128,7 @@ footer a { color: rgba(255,255,255,0.85); }
     --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
     --font-b: 'Lora', 'Segoe UI', sans-serif;
 }
-    .container { padding: 1rem; }
+    
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
@@ -136,7 +141,9 @@ main p { margin-bottom: 1rem; color: #334155; }
 }
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}</style>
+.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main p { margin-bottom: 1rem; color: #334155; }
   body{background:#FAFAFA!important;color:#18181B!important}
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}</style>  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"knowsAbout":["Geotechnical Engineering","Soil Mechanics","Foundation Engineering","Site Investigation"],"url":"https://birmingham.geotechnical-engineering.biz/","name":"Birmingham","logo":"https://birmingham.geotechnical-engineering.biz/img/logo.svg","@type":"Organization","areaServed":{"name":"United States","@type":"Country"},"@id":"https://birmingham.geotechnical-engineering.biz/#organization"},{"itemListElement":[{"url":"https://birmingham.geotechnical-engineering.biz/active-passive-anchor-design/","name":"Active Passive Anchor Design","@type":"ListItem","position":1},{"url":"https://birmingham.geotechnical-engineering.biz/atterberg-limits/","name":"Atterberg Limits","@type":"ListItem","position":2},{"url":"https://birmingham.geotechnical-engineering.biz/bearing-capacity-analysis/","name":"Bearing Capacity Analysis","@type":"ListItem","position":3},{"url":"https://birmingham.geotechnical-engineering.biz/cbr-study-road-design/","name":"Cbr Study Road Design","@type":"ListItem","position":4},{"url":"https://birmingham.geotechnical-engineering.biz/collapsible-soil-evaluation/","name":"Collapsible Soil Evaluation","@type":"ListItem","position":5},{"url":"https://birmingham.geotechnical-engineering.biz/cone-penetration/","name":"Cone Penetration","@type":"ListItem","position":6},{"url":"https://birmingham.geotechnical-engineering.biz/contaminated-soil-remediation/","name":"Contaminated Soil Remediation","@type":"ListItem","position":7},{"url":"https://birmingham.geotechnical-engineering.biz/debris-flow-analysis/","name":"Debris Flow Analysis","@type":"ListItem","position":8},{"url":"https://birmingham.geotechnical-engineering.biz/deep-soil-mixing/","name":"Deep Soil Mixing","@type":"ListItem","position":9},{"url":"https://birmingham.geotechnical-engineering.biz/diaphragm-wall-design/","name":"Diaphragm Wall Design","@type":"ListItem","position":10},{"url":"https://birmingham.geotechnical-engineering.biz/differential-settlement-analysis/","name":"Differential Settlement Analysis","@type":"ListItem","position":11},{"url":"https://birmingham.geotechnical-engineering.biz/direct-shear/","name":"Direct Shear","@type":"ListItem","position":12},{"url":"https://birmingham.geotechnical-engineering.biz/driven-pile-design/","name":"Driven Pile Design","@type":"ListItem","position":13},{"url":"https://birmingham.geotechnical-engineering.biz/dynamic-compaction-design/","name":"Dynamic Compaction Design","@type":"ListItem","position":14},{"url":"https://birmingham.geotechnical-engineering.biz/existing-pavement-evaluation/","name":"Existing Pavement Evaluation","@type":"ListItem","position":15},{"url":"https://birmingham.geotechnical-engineering.biz/expansive-soil-evaluation/","name":"Expansive Soil Evaluation","@type":"ListItem","position":16},{"url":"https://birmingham.geotechnical-engineering.biz/exploratory-pit/","name":"Exploratory Pit","@type":"ListItem","position":17},{"url":"https://birmingham.geotechnical-engineering.biz/factor-safety/","name":"Factor Safety","@type":"ListItem","position":18},{"url":"https://birmingham.geotechnical-engineering.biz/field-density/","name":"Field Density","@type":"ListItem","position":19},{"url":"https://birmingham.geotechnical-engineering.biz/field-permeability/","name":"Field Permeability","@type":"ListItem","position":20},{"url":"https://birmingham.geotechnical-engineering.biz/field-vane-shear/","name":"Field Vane Shear","@type":"ListItem","position":21},{"url":"https://birmingham.geotechnical-engineering.biz/flexible-pavement-design/","name":"Flexible Pavement Design","@type":"ListItem","position":22},{"url":"https://birmingham.geotechnical-engineering.biz/foundations/","name":"Foundations","@type":"ListItem","position":23},{"url":"https://birmingham.geotechnical-engineering.biz/foundations-fill/","name":"Foundations Fill","@type":"ListItem","position":24},{"url":"https://birmingham.geotechnical-engineering.biz/geocell-design/","name":"Geocell Design","@type":"ListItem","position":25},{"url":"https://birmingham.geotechnical-engineering.biz/geogrid-specification/","name":"Geogrid Specification","@type":"ListItem","position":26},{"url":"https://birmingham.geotechnical-engineering.biz/geomembrane-specification/","name":"Geomembrane Specification","@type":"ListItem","position":27},{"url":"https://birmingham.geotechnical-engineering.biz/geophysics/","name":"Geophysics","@type":"ListItem","position":28},{"url":"https://birmingham.geotechnical-engineering.biz/geotechnical-analysis-soft-soil/","name":"Geotechnical Analysis Soft Soil","@type":"ListItem","position":29},{"url":"https://birmingham.geotechnical-engineering.biz/geotechnical-design-deep-excavations/","name":"Geotechnical Design Deep Excavations","@type":"ListItem","position":30}],"@type":"ItemList","@id":"https://birmingham.geotechnical-engineering.biz/#services"},{"reviewCount":57,"worstRating":1,"bestRating":5,"@type":"AggregateRating","ratingValue":4.9,"itemReviewed":{"@id":"https://birmingham.geotechnical-engineering.biz/#organization"},"@id":"https://birmingham.geotechnical-engineering.biz/#rating"}]}</script>
+img{max-width:100%!important;height:auto!important}
+}
+</style>  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"knowsAbout":["Geotechnical Engineering","Soil Mechanics","Foundation Engineering","Site Investigation"],"url":"https://birmingham.geotechnical-engineering.biz/","name":"Birmingham","logo":"https://birmingham.geotechnical-engineering.biz/img/logo.svg","@type":"Organization","areaServed":{"name":"United States","@type":"Country"},"@id":"https://birmingham.geotechnical-engineering.biz/#organization"},{"itemListElement":[{"url":"https://birmingham.geotechnical-engineering.biz/active-passive-anchor-design/","name":"Active Passive Anchor Design","@type":"ListItem","position":1},{"url":"https://birmingham.geotechnical-engineering.biz/atterberg-limits/","name":"Atterberg Limits","@type":"ListItem","position":2},{"url":"https://birmingham.geotechnical-engineering.biz/bearing-capacity-analysis/","name":"Bearing Capacity Analysis","@type":"ListItem","position":3},{"url":"https://birmingham.geotechnical-engineering.biz/cbr-study-road-design/","name":"Cbr Study Road Design","@type":"ListItem","position":4},{"url":"https://birmingham.geotechnical-engineering.biz/collapsible-soil-evaluation/","name":"Collapsible Soil Evaluation","@type":"ListItem","position":5},{"url":"https://birmingham.geotechnical-engineering.biz/cone-penetration/","name":"Cone Penetration","@type":"ListItem","position":6},{"url":"https://birmingham.geotechnical-engineering.biz/contaminated-soil-remediation/","name":"Contaminated Soil Remediation","@type":"ListItem","position":7},{"url":"https://birmingham.geotechnical-engineering.biz/debris-flow-analysis/","name":"Debris Flow Analysis","@type":"ListItem","position":8},{"url":"https://birmingham.geotechnical-engineering.biz/deep-soil-mixing/","name":"Deep Soil Mixing","@type":"ListItem","position":9},{"url":"https://birmingham.geotechnical-engineering.biz/diaphragm-wall-design/","name":"Diaphragm Wall Design","@type":"ListItem","position":10},{"url":"https://birmingham.geotechnical-engineering.biz/differential-settlement-analysis/","name":"Differential Settlement Analysis","@type":"ListItem","position":11},{"url":"https://birmingham.geotechnical-engineering.biz/direct-shear/","name":"Direct Shear","@type":"ListItem","position":12},{"url":"https://birmingham.geotechnical-engineering.biz/driven-pile-design/","name":"Driven Pile Design","@type":"ListItem","position":13},{"url":"https://birmingham.geotechnical-engineering.biz/dynamic-compaction-design/","name":"Dynamic Compaction Design","@type":"ListItem","position":14},{"url":"https://birmingham.geotechnical-engineering.biz/existing-pavement-evaluation/","name":"Existing Pavement Evaluation","@type":"ListItem","position":15},{"url":"https://birmingham.geotechnical-engineering.biz/expansive-soil-evaluation/","name":"Expansive Soil Evaluation","@type":"ListItem","position":16},{"url":"https://birmingham.geotechnical-engineering.biz/exploratory-pit/","name":"Exploratory Pit","@type":"ListItem","position":17},{"url":"https://birmingham.geotechnical-engineering.biz/factor-safety/","name":"Factor Safety","@type":"ListItem","position":18},{"url":"https://birmingham.geotechnical-engineering.biz/field-density/","name":"Field Density","@type":"ListItem","position":19},{"url":"https://birmingham.geotechnical-engineering.biz/field-permeability/","name":"Field Permeability","@type":"ListItem","position":20},{"url":"https://birmingham.geotechnical-engineering.biz/field-vane-shear/","name":"Field Vane Shear","@type":"ListItem","position":21},{"url":"https://birmingham.geotechnical-engineering.biz/flexible-pavement-design/","name":"Flexible Pavement Design","@type":"ListItem","position":22},{"url":"https://birmingham.geotechnical-engineering.biz/foundations/","name":"Foundations","@type":"ListItem","position":23},{"url":"https://birmingham.geotechnical-engineering.biz/foundations-fill/","name":"Foundations Fill","@type":"ListItem","position":24},{"url":"https://birmingham.geotechnical-engineering.biz/geocell-design/","name":"Geocell Design","@type":"ListItem","position":25},{"url":"https://birmingham.geotechnical-engineering.biz/geogrid-specification/","name":"Geogrid Specification","@type":"ListItem","position":26},{"url":"https://birmingham.geotechnical-engineering.biz/geomembrane-specification/","name":"Geomembrane Specification","@type":"ListItem","position":27},{"url":"https://birmingham.geotechnical-engineering.biz/geophysics/","name":"Geophysics","@type":"ListItem","position":28},{"url":"https://birmingham.geotechnical-engineering.biz/geotechnical-analysis-soft-soil/","name":"Geotechnical Analysis Soft Soil","@type":"ListItem","position":29},{"url":"https://birmingham.geotechnical-engineering.biz/geotechnical-design-deep-excavations/","name":"Geotechnical Design Deep Excavations","@type":"ListItem","position":30}],"@type":"ItemList","@id":"https://birmingham.geotechnical-engineering.biz/#services"},{"reviewCount":57,"worstRating":1,"bestRating":5,"@type":"AggregateRating","ratingValue":4.9,"itemReviewed":{"@id":"https://birmingham.geotechnical-engineering.biz/#organization"},"@id":"https://birmingham.geotechnical-engineering.biz/#rating"}]}</script>
 </head>
 <body>
 
@@ -189,7 +198,9 @@ img{max-width:100%!important;height:auto!important}</style>  <script type="appli
 
             
 
-            <div style="margin:2rem 0"><h2>Live process video</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/N3lD4C3vg1k?rel=0" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div>
+            <div style="margin:2rem 0"><h2>Live process video</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/N3lD4C3vg1k?rel=0" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div>
 
             <section>
                 <h2>Critical ground factors in Birmingham</h2>

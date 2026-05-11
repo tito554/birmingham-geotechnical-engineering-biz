@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
@@ -39,7 +44,7 @@ summary::-webkit-details-marker { display: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 
 header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-    .content-area { flex-direction: column; }
+    
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 .header-contact a:hover { color: white; }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -92,7 +97,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
 details[open] summary::before { content: '− '; }
-    main { padding: 1.5rem; }
+    
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -108,7 +113,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .cta .whatsapp-btn:hover { background: #1eb853; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-    .header-top { flex-direction: column; text-align: center; }
+    
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 .cat-row:hover{background:rgba(255,255,255,.05)}
 :root {
@@ -120,7 +125,7 @@ footer a { color: rgba(255,255,255,0.85); }
     --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
     --font-b: 'Lora', 'Segoe UI', sans-serif;
 }
-    .container { padding: 1rem; }
+    
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
@@ -133,7 +138,9 @@ main p { margin-bottom: 1rem; color: #334155; }
 }
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}</style>
+.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ main p { margin-bottom: 1rem; color: #334155; }
   body{background:#FAFAFA!important;color:#18181B!important}
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"url":"https://birmingham.geotechnical-engineering.biz/geophysics/","name":"Geophysics in Birmingham – UK","description":"Birmingham’s geophysics surveys address the complex ground conditions shaped by the city’s industrial past and underlying Triassic sandstones, mudstones, a","isPartOf":{"url":"https://birmingham.geotechnical-engineering.biz","@type":"WebSite","@id":"https://birmingham.geotechnical-engineering.biz/#website-a534"},"inLanguage":"en","@type":"WebPage","@id":"https://birmingham.geotechnical-engineering.biz/geophysics/"},{"itemListElement":[{"name":"Home","@type":"ListItem","item":"https://birmingham.geotechnical-engineering.biz/","position":1},{"name":"Geophysics","@type":"ListItem","item":"https://birmingham.geotechnical-engineering.biz/geophysics/","position":2}],"@type":"BreadcrumbList"},{"itemListElement":[{"url":"https://birmingham.geotechnical-engineering.biz/ground-penetrating-radar/","name":"GPR (Ground Penetrating Radar) survey","@type":"ListItem","position":1},{"url":"https://birmingham.geotechnical-engineering.biz/hvsr-microtremor-survey/","name":"HVSR microtremor survey (Nakamura method)","@type":"ListItem","position":2},{"url":"https://birmingham.geotechnical-engineering.biz/shear-wave-velocity/","name":"MASW / VS30 (shear wave velocity)","@type":"ListItem","position":3},{"url":"https://birmingham.geotechnical-engineering.biz/refraction-reflection/","name":"Seismic tomography (refraction/reflection)","@type":"ListItem","position":4}],"name":"Geophysics","@type":"ItemList"}]}</script></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"url":"https://birmingham.geotechnical-engineering.biz/geophysics/","name":"Geophysics in Birmingham – UK","description":"Birmingham’s geophysics surveys address the complex ground conditions shaped by the city’s industrial past and underlying Triassic sandstones, mudstones, a","isPartOf":{"url":"https://birmingham.geotechnical-engineering.biz","@type":"WebSite","@id":"https://birmingham.geotechnical-engineering.biz/#website-a534"},"inLanguage":"en","@type":"WebPage","@id":"https://birmingham.geotechnical-engineering.biz/geophysics/"},{"itemListElement":[{"name":"Home","@type":"ListItem","item":"https://birmingham.geotechnical-engineering.biz/","position":1},{"name":"Geophysics","@type":"ListItem","item":"https://birmingham.geotechnical-engineering.biz/geophysics/","position":2}],"@type":"BreadcrumbList"},{"itemListElement":[{"url":"https://birmingham.geotechnical-engineering.biz/ground-penetrating-radar/","name":"GPR (Ground Penetrating Radar) survey","@type":"ListItem","position":1},{"url":"https://birmingham.geotechnical-engineering.biz/hvsr-microtremor-survey/","name":"HVSR microtremor survey (Nakamura method)","@type":"ListItem","position":2},{"url":"https://birmingham.geotechnical-engineering.biz/shear-wave-velocity/","name":"MASW / VS30 (shear wave velocity)","@type":"ListItem","position":3},{"url":"https://birmingham.geotechnical-engineering.biz/refraction-reflection/","name":"Seismic tomography (refraction/reflection)","@type":"ListItem","position":4}],"name":"Geophysics","@type":"ItemList"}]}</script></head>
 <body>
 
 <header>
@@ -191,6 +200,8 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
 
             <section>
                 <h2>Critical ground factors in Birmingham</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>A common mistake in Birmingham is assuming that all glacial till behaves like a dense granular soil. In reality, the local till often contains lenses of soft clay or silt that reduce side friction drastically. If a passive anchor relies on full bond along the entire length, those weak lenses can cause creep and long-term displacement. We have seen retaining walls shift several centimeters because the anchor design did not account for these thin, low-strength layers. A rigorous site investigation with continuous sampling is the only way to catch them before construction.</p>
             </section>
 
@@ -214,7 +225,14 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../ground-penetrating-radar/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">GPR (Ground Penetrating Radar) survey</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../hvsr-microtremor-survey/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">HVSR microtremor survey (Nakamura method)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../shear-wave-velocity/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">MASW / VS30 (shear wave velocity)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../refraction-reflection/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Seismic tomography (refraction/reflection)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/cimentaciones-sismicas-1.webp" alt="Geophysics in Birmingham" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Geophysics in Birmingham provides a non-intrusive method for mapping subsurface conditions across the West Midlands, a region underlain by a complex sequence of Triassic sandstones, Mercia Mudstone, and glacial drift deposits. A robust geophysical survey is often the first critical step in a targeted <a href="/investigation/">ground investigation</a>, designed to de-risk projects by identifying buried obstructions, variable rockhead profiles, and potential dissolution features associated with the underlying mudstone before any physical intrusion takes place. This approach is particularly relevant given Birmingham’s industrial legacy, where made ground and mine workings can present significant hazards, and must be characterised in accordance with BS 5930:2015+A1:2020 to ensure compliance with local planning authority requirements.</p>
+<p>Our geophysical methodologies strictly adhere to UK standards, including BS 5930 for the code of practice for ground investigations and relevant Eurocode 7 parts for geotechnical design. We utilise a multi-technique approach, frequently employing Electrical Resistivity Tomography (ERT) to delineate water-bearing fractures in sandstone aquifers or Ground Penetrating Radar (GPR) for high-resolution concrete scanning and utility mapping on brownfield sites. The geophysical data provides a continuous profile that bridges the information gap between discrete intrusive testing points, such as <a href="/standard-penetration/">Standard Penetration Tests (SPT)</a> or <a href="/cone-penetration/">Cone Penetration Tests (CPT)</a>, allowing for a more accurate geological model. For near-surface characterisation, these surveys are often directly calibrated by <a href="/exploratory-pit/">exploratory test pits</a>, validating the geophysical signatures against logged soil and rock exposures to satisfy the rigorous verification protocols demanded by UK regulatory bodies.</p>
+<p>Typical projects in Birmingham city centre and surrounding areas like Edgbaston or Digbeth demand a hybrid assessment strategy where geophysics is integrated with direct <a href="/in-situ-testing/">in-situ testing</a> to navigate logistics constraints. For high-rise developments on the sandstone ridge, ERT profiles are invaluable for targeting subsequent rotary boreholes to confirm founding strata, while on large infrastructure schemes through the Mercia Mudstone, seismic refraction helps predict rippability and excavation volumes. On former industrial plots, we combine electromagnetic surveys with targeted intrusive sampling to delineate contamination plumes, ensuring the safe design of remediation strategies without triggering unnecessary disturbance of hazardous materials, thereby maintaining a clear focus on CDM 2015 safety obligations.</p>
+<img src="/img/amplificacion-sismica-3.webp" alt="Geophysics in Birmingham" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>The process delivers a comprehensive factual report containing georeferenced radargrams, resistivity tomograms, and a clear interpretive narrative that correlates geophysical anomalies with the known geological and anthropogenic environment. This final deliverable synthesises the non-intrusive data with any subsequent intrusive findings, providing engineers with a single, unified ground model. The primary value lies in the strategic reduction of exploratory drilling locations, lowering costs and site disruption while significantly mitigating the risk of unforeseen ground conditions that could otherwise lead to costly project delays and foundation redesigns in Birmingham’s challenging urban geology.</p></div></section></main>
     </div>
 </div>
 

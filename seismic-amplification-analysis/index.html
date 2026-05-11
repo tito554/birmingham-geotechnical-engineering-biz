@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
@@ -42,7 +47,7 @@ summary::-webkit-details-marker { display: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 
 header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-    .content-area { flex-direction: column; }
+    
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 .header-contact a:hover { color: white; }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -95,7 +100,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
 details[open] summary::before { content: '− '; }
-    main { padding: 1.5rem; }
+    
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -111,7 +116,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .cta .whatsapp-btn:hover { background: #1eb853; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-    .header-top { flex-direction: column; text-align: center; }
+    
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 .cat-row:hover{background:rgba(255,255,255,.05)}
 :root {
@@ -123,7 +128,7 @@ footer a { color: rgba(255,255,255,0.85); }
     --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
     --font-b: 'Lora', 'Segoe UI', sans-serif;
 }
-    .container { padding: 1rem; }
+    
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
@@ -136,7 +141,9 @@ main p { margin-bottom: 1rem; color: #334155; }
 }
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}</style>
+.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main p { margin-bottom: 1rem; color: #334155; }
   body{background:#FAFAFA!important;color:#18181B!important}
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Birmingham</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>The Triassic sandstone that underlies most of central Birmingham is generally stiff and non-liquefiable, but the real hazard sits in the river valleys. In Sparkbrook and along the River Cole, soft alluvial silts and organics can exceed 8 m in thickness. These deposits exhibit low shear-wave velocity and high water content, which together produce strong amplification in the 2–4 Hz band — exactly the range that can couple with medium-rise masonry buildings common across the inner ring. The 2008 Market Rasen earthquake (5.2 Mw) was felt across Birmingham, and anecdotal reports of stronger shaking in the Bordesley area correlate with the soft-ground signature we now see in <a href="../shear-wave-velocity/" data-interlink="1">VS30</a> maps. Ignoring site-specific amplification <a href="../foundations-fill/" data-interlink="1">analysis</a> here means you are designing blind.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Q&A</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>How much does a seismic amplification analysis cost in Birmingham?</summary><p>A standard MASW-based <a href="../foundations-fill/" data-interlink="1">analysis</a> with <a href="../shear-wave-velocity/" data-interlink="1">VS30</a> profiling and a site factor report runs between £890 and £1,570 depending on array length, number of profiles, and whether a downhole seismic log is required. Larger sites or multiple profiles increase the cost proportionally.</p></details><details><summary>Which areas of Birmingham have the highest seismic amplification risk?</summary><p>The highest amplification potential is found along the River Rea corridor (Digbeth, Highgate, Balsall Heath) and the River Cole valley (Sparkbrook, Yardley Wood), where soft alluvial deposits exceed 6 m thickness. Sites on the Birmingham Fault line near the city centre may also show elevated resonance due to abrupt stiffness contrasts.</p></details><details><summary>Do I need a seismic amplification study for a low-rise building in Birmingham?</summary><p>Yes — even a two-storey structure on soft ground can experience significant dynamic amplification if its natural frequency (typically 4–8 Hz for low-rise masonry) aligns with the soil's fundamental frequency. Eurocode 8 requires site-specific <a href="../foundations-fill/" data-interlink="1">analysis</a> for ground types C, D, and E regardless of building height. We have seen cases in the Jewellery Quarter where ignoring this led to excessive inter-storey drift predictions during peer review.</p></details>
             </section>
 

@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
@@ -42,7 +47,7 @@ summary::-webkit-details-marker { display: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 
 header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-    .content-area { flex-direction: column; }
+    
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 .header-contact a:hover { color: white; }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -95,7 +100,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
 details[open] summary::before { content: '− '; }
-    main { padding: 1.5rem; }
+    
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -111,7 +116,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .cta .whatsapp-btn:hover { background: #1eb853; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-    .header-top { flex-direction: column; text-align: center; }
+    
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 .cat-row:hover{background:rgba(255,255,255,.05)}
 :root {
@@ -123,7 +128,7 @@ footer a { color: rgba(255,255,255,0.85); }
     --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
     --font-b: 'Lora', 'Segoe UI', sans-serif;
 }
-    .container { padding: 1rem; }
+    
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
@@ -136,7 +141,9 @@ main p { margin-bottom: 1rem; color: #334155; }
 }
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}</style>
+.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main p { margin-bottom: 1rem; color: #334155; }
   body{background:#FAFAFA!important;color:#18181B!important}
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Birmingham</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>Birmingham's water table can be shallow, especially in the river valleys of the Tame and Rea, and this directly affects subgrade bearing capacity. When the till becomes saturated, CBR values can drop by half, leading to premature pavement failure if not accounted for. The city also has areas of made ground from its industrial past, where old foundations or rubble create variable support conditions. Ignoring these localised soft spots during the road geotechnics phase often results in differential settlement and cracking within the first few winters. A targeted investigation with dynamic probing and trial pits helps identify these weak zones before the pavement design is finalised.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Q&A</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>What CBR value is typically expected for subgrade in Birmingham?</summary><p>For the glacial till that underlies much of Birmingham, soaked CBR values usually range between 2.5% and 8% depending on moisture content and compaction. We always recommend site-specific testing because local variations in clay content and drainage can shift the value significantly. The design CBR is then selected based on the 85th or 95th percentile of the test results, following Highways England guidance.</p></details><details><summary>How does road geotechnics differ between new-build and existing road widening in Birmingham?</summary><p>For new-build, the focus is on characterising the natural subgrade and selecting appropriate fill materials. For widening or overlay projects, we need to assess the existing pavement structure and identify any weak layers that could cause reflective cracking. Birmingham's industrial legacy means old roadbases sometimes contain slag or clinker, which behave differently from modern granular materials, so a detailed pavement coring and laboratory testing programme is essential.</p></details><details><summary>What is the typical cost for a road geotechnics investigation in Birmingham?</summary><p>For a standard residential estate road, the investigation cost ranges from £740 to £3,180, depending on the number of test pits, laboratory tests, and the complexity of the ground conditions. A larger highway scheme with multiple trial pits, dynamic probing, and full CBR testing would be at the higher end of that range. We always provide a fixed price after reviewing the site history and scope.</p></details><details><summary>Do I need a full ground investigation for a small access road or car park?</summary><p>Even for small pavements, we recommend a basic investigation with at least two test pits and three CBR tests. Birmingham's variable till can hide soft pockets that cause early failure in lightly loaded pavements. A simple investigation costs a fraction of the repair bill for a cracked car park surface, and it gives the designer confidence in the subgrade modulus and drainage assumptions.</p></details>
             </section>
 

@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
@@ -39,7 +44,7 @@ summary::-webkit-details-marker { display: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
 
 header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-    .content-area { flex-direction: column; }
+    
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 .header-contact a:hover { color: white; }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
@@ -92,7 +97,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
 details[open] summary::before { content: '− '; }
-    main { padding: 1.5rem; }
+    
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
@@ -108,7 +113,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .cta .whatsapp-btn:hover { background: #1eb853; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-    .header-top { flex-direction: column; text-align: center; }
+    
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 .cat-row:hover{background:rgba(255,255,255,.05)}
 :root {
@@ -120,7 +125,7 @@ footer a { color: rgba(255,255,255,0.85); }
     --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
     --font-b: 'Lora', 'Segoe UI', sans-serif;
 }
-    .container { padding: 1rem; }
+    
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
@@ -133,7 +138,9 @@ main p { margin-bottom: 1rem; color: #334155; }
 }
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}</style>
+.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ main p { margin-bottom: 1rem; color: #334155; }
   body{background:#FAFAFA!important;color:#18181B!important}
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"url":"https://birmingham.geotechnical-engineering.biz/in-situ-testing/","name":"In-Situ Testing in Birmingham – UK","description":"In-situ testing in Birmingham addresses the variable ground conditions of the West Midlands, where glacial tills, Mercia Mudstone, and occasional sand lens","isPartOf":{"url":"https://birmingham.geotechnical-engineering.biz","@type":"WebSite","@id":"https://birmingham.geotechnical-engineering.biz/#website-a534"},"inLanguage":"en","@type":"WebPage","@id":"https://birmingham.geotechnical-engineering.biz/in-situ-testing/"},{"itemListElement":[{"name":"Home","@type":"ListItem","item":"https://birmingham.geotechnical-engineering.biz/","position":1},{"name":"In-Situ Testing","@type":"ListItem","item":"https://birmingham.geotechnical-engineering.biz/in-situ-testing/","position":2}],"@type":"BreadcrumbList"},{"itemListElement":[{"url":"https://birmingham.geotechnical-engineering.biz/field-density/","name":"Field density test (sand cone method)","@type":"ListItem","position":1},{"url":"https://birmingham.geotechnical-engineering.biz/field-permeability/","name":"Field permeability test (Lefranc/Lugeon)","@type":"ListItem","position":2},{"url":"https://birmingham.geotechnical-engineering.biz/field-vane-shear/","name":"Field vane shear test (VST)","@type":"ListItem","position":3},{"url":"https://birmingham.geotechnical-engineering.biz/porchet-double-ring-infiltrometer/","name":"Infiltration test (Porchet/Double-ring infiltrometer)","@type":"ListItem","position":4},{"url":"https://birmingham.geotechnical-engineering.biz/menard-pressuremeter/","name":"Ménard pressuremeter test (PMT)","@type":"ListItem","position":5}],"name":"In-Situ Testing","@type":"ItemList"}]}</script></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"url":"https://birmingham.geotechnical-engineering.biz/in-situ-testing/","name":"In-Situ Testing in Birmingham – UK","description":"In-situ testing in Birmingham addresses the variable ground conditions of the West Midlands, where glacial tills, Mercia Mudstone, and occasional sand lens","isPartOf":{"url":"https://birmingham.geotechnical-engineering.biz","@type":"WebSite","@id":"https://birmingham.geotechnical-engineering.biz/#website-a534"},"inLanguage":"en","@type":"WebPage","@id":"https://birmingham.geotechnical-engineering.biz/in-situ-testing/"},{"itemListElement":[{"name":"Home","@type":"ListItem","item":"https://birmingham.geotechnical-engineering.biz/","position":1},{"name":"In-Situ Testing","@type":"ListItem","item":"https://birmingham.geotechnical-engineering.biz/in-situ-testing/","position":2}],"@type":"BreadcrumbList"},{"itemListElement":[{"url":"https://birmingham.geotechnical-engineering.biz/field-density/","name":"Field density test (sand cone method)","@type":"ListItem","position":1},{"url":"https://birmingham.geotechnical-engineering.biz/field-permeability/","name":"Field permeability test (Lefranc/Lugeon)","@type":"ListItem","position":2},{"url":"https://birmingham.geotechnical-engineering.biz/field-vane-shear/","name":"Field vane shear test (VST)","@type":"ListItem","position":3},{"url":"https://birmingham.geotechnical-engineering.biz/porchet-double-ring-infiltrometer/","name":"Infiltration test (Porchet/Double-ring infiltrometer)","@type":"ListItem","position":4},{"url":"https://birmingham.geotechnical-engineering.biz/menard-pressuremeter/","name":"Ménard pressuremeter test (PMT)","@type":"ListItem","position":5}],"name":"In-Situ Testing","@type":"ItemList"}]}</script></head>
 <body>
 
 <header>
@@ -190,6 +199,8 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
 
             <section>
                 <h2>Critical ground factors in Birmingham</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>A common mistake in Birmingham is assuming that all glacial till behaves like a dense granular soil. In reality, the local till often contains lenses of soft clay or silt that reduce side friction drastically. If a passive anchor relies on full bond along the entire length, those weak lenses can cause creep and long-term displacement. We have seen retaining walls shift several centimeters because the anchor design did not account for these thin, low-strength layers. A rigorous site investigation with continuous sampling is the only way to catch them before construction.</p>
             </section>
 
@@ -214,6 +225,8 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
 
             <section>
                 <h2>Q&A</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>What is the difference between active and passive anchors?</summary><p>Active anchors are pre-tensioned after installation to apply a compressive load on the soil or structure. Passive anchors are not pre-loaded; they resist movement only after displacement begins. Active anchors are common for permanent works in Birmingham, while passive anchors suit temporary shoring.</p></details><details><summary>How much does anchor design cost in Birmingham?</summary><p>A typical anchor design package for a medium-sized project in Birmingham ranges from £860 to £2,960. This includes load calculations, bond length verification, and a design report. Final cost depends on the number of anchor types and complexity of ground conditions.</p></details><details><summary>What ground conditions in Birmingham affect anchor capacity most?</summary><p>Weathered Mercia Mudstone and glacial till with clay lenses are the two main variables. Mudstone weathering grade controls bond strength, while till lenses can reduce side friction. A proper ground investigation with SPT and CPT is essential to avoid overestimating capacity.</p></details>
             </section>
 
@@ -229,7 +242,10 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
                 </script>
             </section>
         
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../field-density/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Field density test (sand cone method)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../field-permeability/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Field permeability test (Lefranc/Lugeon)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../field-vane-shear/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Field vane shear test (VST)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../porchet-double-ring-infiltrometer/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Infiltration test (Porchet/Double-ring infiltrometer)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../menard-pressuremeter/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Ménard pressuremeter test (PMT)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p>In-situ testing forms the backbone of reliable ground investigation across Birmingham, where the underlying geology ranges from the Mercia Mudstone Group and glacial till deposits to alluvial sands and gravels along the Rea and Tame valleys. A comprehensive <a href="/investigation/">ground investigation</a> programme must account for this variability, along with local regulatory requirements under the West Midlands Combined Authority and the stringent guidance of British Standards BS 5930 and BS 1377. For sites with soft cohesive soils or mixed fill, practitioners rely heavily on the <a href="/field-vane-shear/">field vane shear test (VST)</a> to determine undrained shear strength without the disturbance inherent in sampling, ensuring data that truly reflects in-situ conditions from Edgbaston to Digbeth.</p>
+<p>Methodology across Birmingham projects adheres rigorously to UK standards, with the <a href="/standard-penetration/">Standard Penetration Test (SPT)</a> executed in accordance with BS EN ISO 22476-3, providing disturbed samples and N-values essential for empirical foundation design in granular soils. Where continuous profiling and pore pressure data are critical, <a href="/cone-penetration/">Cone Penetration Testing (CPT)</a> following BS EN ISO 22476-1 delivers high-resolution stratigraphy, particularly effective in the sandy drift deposits near the city centre. Complementary tests such as the <a href="/field-permeability/">field permeability test</a>, conducted as Lefranc or Lugeon methods per BS EN ISO 22282, quantify hydraulic conductivity directly within boreholes, a vital step for dewatering design and contamination plume assessment in Birmingham's industrial legacy sites.</p>
+<p>Typical projects demanding robust in-situ testing include the high-rise residential and commercial schemes transforming the city centre, where deep foundations must navigate buried channel deposits and variable fill. Infrastructure works, such as the Midland Metro extensions and highway improvements on the M6 and A38 corridors, require <a href="/field-density/">field density testing</a> using the sand cone method to verify compaction of engineered fill and subgrade layers to Specification for Highway Works standards. The <a href="/exploratory-pit/">exploratory test pit</a> remains indispensable for shallow investigations in redevelopment zones like Digbeth and the Jewellery Quarter, allowing direct visual logging of made ground, trial pit gas monitoring, and targeted sampling of potentially contaminated materials.</p>
+<p>A typical in-situ testing programme begins with a desk study and site reconnaissance, followed by a phased field deployment where each test type is selected to target specific geotechnical parameters. Deliverables include factual reports with test logs, graphical plots of CPT sleeve friction and pore pressure dissipation, and interpretative reporting that provides characteristic values for limit state design to Eurocode 7. This integrated approach, combining multiple <a href="/in-situ-testing/">in-situ testing</a> techniques under one competent supervision, reduces project risk, accelerates site characterisation, and provides the defensible data foundation required by Birmingham City Council planners and NHBC warranty providers.</p></div></section></main>
     </div>
 </div>
 
