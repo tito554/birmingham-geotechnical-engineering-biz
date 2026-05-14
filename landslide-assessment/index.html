@@ -174,6 +174,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#800020) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head>
 <body>
 
@@ -244,7 +280,7 @@ header.hero, .hero { position: relative !important; }
 
             <section>
                 <h2>Q&A</h2>
-                <details><summary>How much does a landslide assessment cost in Birmingham?</summary><p>Typical costs for a residential-scale landslide assessment in Birmingham range between £820 and £2,680, depending on site access, number of boreholes, and monitoring duration. Larger or more complex sites — such as those requiring deep rotary coring or multiple piezometers — will be at the higher end. Contact us for a site-specific quotation.</p></details><details><summary>What triggers landslides in the Birmingham area?</summary><p>Most landslides in Birmingham are triggered by prolonged or intense rainfall that raises pore water pressure within the Mercia Mudstone or glacial till. Human factors — such as excavation for basements, removal of toe support, or leaking drainage pipes — are also common contributory causes. The combination of clay-rich soils and steep valley sides makes areas like Kings Heath and Edgbaston particularly susceptible.</p></details><details><summary>Is a landslide assessment required by UK building regulations?</summary><p>While there is no blanket statutory requirement, the NHBC and most local planning authorities will require a geotechnical assessment if a proposed development is within 15 metres of a slope steeper than 1:3. Additionally, the Building Regulations Approved Document A (Structure) requires ground movement risk to be considered, and a landslide assessment is the accepted method for demonstrating compliance on sloping sites.</p></details><details><summary>How long does a full landslide assessment take?</summary><p>A standard investigation — including field work, laboratory testing, and reporting — takes 6 to 10 weeks. If groundwater monitoring is required over two wet seasons, the programme extends to approximately 12 to 14 months. We can provide interim reports for planning purposes after the first monitoring cycle.</p></details><details><summary>What is the difference between a desk study and a landslide assessment?</summary><p>A desk study reviews existing records, geological maps, and historical aerial photos to identify potential ground hazards. A landslide assessment goes further: it involves physical site investigation (boreholes, trial pits, geophysics), laboratory testing for shear strength parameters, installation of monitoring instruments, and quantitative <a href="../slope-stability-analysis/" data-interlink="1">slope stability <a href="../foundations-fill/" data-interlink="1">analysis</a></a>. The desk study is a useful first step, but it cannot replace the site-specific data that a full assessment provides.</p></details>
+                <details><summary>How much does a landslide assessment cost in Birmingham?</summary><p>Typical costs for a residential-scale landslide assessment in Birmingham range between £820 and £2,680, depending on site access, number of boreholes, and monitoring duration. Larger or more complex sites — such as those requiring deep rotary coring or multiple piezometers — will be at the higher end. Contact us for a site-specific quotation.</p></details><details><summary>What triggers landslides in the Birmingham area?</summary><p>Most landslides in Birmingham are triggered by prolonged or intense rainfall that raises pore water pressure within the Mercia Mudstone or glacial till. Human factors — such as excavation for basements, removal of toe support, or leaking drainage pipes — are also common contributory causes. The combination of clay-rich soils and steep valley sides makes areas like Kings Heath and Edgbaston particularly susceptible.</p></details><details><summary>Is a landslide assessment required by UK building regulations?</summary><p>While there is no blanket statutory requirement, the NHBC and most local planning authorities will require a geotechnical assessment if a proposed development is within 15 metres of a slope steeper than 1:3. Additionally, the Building Regulations Approved Document A (Structure) requires ground movement risk to be considered, and a landslide assessment is the accepted method for demonstrating compliance on sloping sites.</p></details><details><summary>How long does a full landslide assessment take?</summary><p>A standard investigation — including field work, <a href="/laboratory/">laboratory</a> testing, and reporting — takes 6 to 10 weeks. If groundwater monitoring is required over two wet seasons, the programme extends to approximately 12 to 14 months. We can provide interim reports for planning purposes after the first monitoring cycle.</p></details><details><summary>What is the difference between a desk study and a landslide assessment?</summary><p>A desk study reviews existing records, geological maps, and historical aerial photos to identify potential ground hazards. A landslide assessment goes further: it involves physical site investigation (boreholes, trial pits, geophysics), laboratory testing for shear strength parameters, installation of monitoring instruments, and quantitative <a href="../slope-stability-analysis/" data-interlink="1">slope stability <a href="../foundations-fill/" data-interlink="1">analysis</a></a>. The desk study is a useful first step, but it cannot replace the site-specific data that a full assessment provides.</p></details>
             </section>
 
             <section>

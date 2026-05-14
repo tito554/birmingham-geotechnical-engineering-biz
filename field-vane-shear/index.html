@@ -174,6 +174,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#800020) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head>
 <body>
 
@@ -246,7 +282,7 @@ header.hero, .hero { position: relative !important; }
                 <h2>Q&A</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
 
-                <details><summary>When should I choose VST over a standard SPT in Birmingham?</summary><p>You should choose VST whenever the site contains soft to firm clays or silts — common in Birmingham’s alluvial deposits along the River Tame, Rea, and Cole. SPT is unreliable in these materials because the driving energy can cause pore-pressure build-up and give artificially high blow counts. VST measures undrained shear strength directly, which is the controlling parameter for bearing capacity and excavation stability in cohesive soils.</p></details><details><summary>How much does a field vane shear test cost in Birmingham?</summary><p>A standard VST at a single depth (manual head, shallow) typically costs between £520 and £1,140, depending on site access, number of test depths, and whether you need disturbed samples for laboratory classification. Deep VST with a drill rig adds mobilisation and depth-related charges. Contact us for a site-specific quote — we serve Birmingham and the whole West Midlands.</p></details><details><summary>What is the difference between peak and remoulded vane strength?</summary><p>Peak strength is the maximum torque recorded as the vane rotates through undisturbed soil. It represents the intact undrained shear strength. After rotation, we continue to turn the vane rapidly to remould the soil — this simulates the effect of construction disturbance. The remoulded strength is the lower value measured after remoulding. The ratio of peak to remoulded strength is the sensitivity index. In Birmingham’s glacial tills, sensitivity typically ranges from 2 to 5, meaning the soil can lose 50–80% of its strength when disturbed. This is critical for excavation support and temporary works design.</p></details><details><summary>Do you follow BS or ASTM for VST in Birmingham?</summary><p>We follow both BS 1377-7:1990 and BS 1377-9. The British standard specifies a rotation rate of 6° per minute and a vane height-to-diameter ratio of 2:1. Our equipment is calibrated annually against UKAS-traceable torque springs. All results are reported in accordance with Eurocode 7 requirements. For projects requiring UKAS-accredited testing, we can provide a scope-specific quotation.</p></details>
+                <details><summary>When should I choose VST over a standard SPT in Birmingham?</summary><p>You should choose VST whenever the site contains soft to firm clays or silts — common in Birmingham’s alluvial deposits along the River Tame, Rea, and Cole. SPT is unreliable in these materials because the driving energy can cause pore-pressure build-up and give artificially high blow counts. VST measures undrained shear strength directly, which is the controlling parameter for bearing capacity and excavation stability in cohesive soils.</p></details><details><summary>How much does a field vane shear test cost in Birmingham?</summary><p>A standard VST at a single depth (manual head, shallow) typically costs between £520 and £1,140, depending on site access, number of test depths, and whether you need disturbed samples for <a href="/laboratory/">laboratory</a> classification. Deep VST with a drill rig adds mobilisation and depth-related charges. Contact us for a site-specific quote — we serve Birmingham and the whole West Midlands.</p></details><details><summary>What is the difference between peak and remoulded vane strength?</summary><p>Peak strength is the maximum torque recorded as the vane rotates through undisturbed soil. It represents the intact undrained shear strength. After rotation, we continue to turn the vane rapidly to remould the soil — this simulates the effect of construction disturbance. The remoulded strength is the lower value measured after remoulding. The ratio of peak to remoulded strength is the sensitivity index. In Birmingham’s glacial tills, sensitivity typically ranges from 2 to 5, meaning the soil can lose 50–80% of its strength when disturbed. This is critical for excavation support and temporary works design.</p></details><details><summary>Do you follow BS or ASTM for VST in Birmingham?</summary><p>We follow both BS 1377-7:1990 and BS 1377-9. The British standard specifies a rotation rate of 6° per minute and a vane height-to-diameter ratio of 2:1. Our equipment is calibrated annually against UKAS-traceable torque springs. All results are reported in accordance with Eurocode 7 requirements. For projects requiring UKAS-accredited testing, we can provide a scope-specific quotation.</p></details>
             </section>
 
             <section>

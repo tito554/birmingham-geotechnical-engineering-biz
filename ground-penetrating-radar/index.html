@@ -174,6 +174,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#800020) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head>
 <body>
 
@@ -244,7 +280,7 @@ header.hero, .hero { position: relative !important; }
 
             <section>
                 <h2>Q&A</h2>
-                <details><summary>How deep can ground penetrating radar penetrate in Birmingham ground conditions?</summary><p>In typical Birmingham clay and fill, a 200 MHz antenna reaches 3–4 m depth. In sandier deposits near the River Tame, penetration can extend to 6 m. Higher‑frequency antennas (900 MHz–1.6 GHz) are used for shallow, high‑resolution work to about 1 m depth.</p></details><details><summary>Do you need a GPR survey if you already have borehole logs for a site in Birmingham?</summary><p>Yes — boreholes provide point data, but GPR gives continuous profiles between boreholes. In Birmingham's brownfield areas, old foundations or voids can exist just metres away from a borehole location. A GPR survey fills those gaps and reduces the chance of unexpected ground conditions during construction.</p></details><details><summary>What is the typical cost of a GPR survey in Birmingham?</summary><p>The typical cost for a GPR survey in Birmingham ranges from £590 to £1,000 depending on site area, antenna selection, and reporting detail. A small utility detection scan on a 0.5 ha site usually falls around the lower end, while a full cavity search with 200 MHz antenna on 1 ha costs closer to the upper end. We provide a fixed quote after a quick site visit.</p></details><details><summary>Can GPR detect plastic pipes or modern utility ducts?</summary><p>Yes, but the signal strength depends on the pipe diameter and the surrounding soil. Plastic pipes larger than 50 mm are usually detectable in Birmingham clay. Metal pipes and ducts give a stronger reflection. For small‑diameter plastic pipes in wet clay, we sometimes combine GPR with a cimentaciones superficiales study to improve confidence.</p></details>
+                <details><summary>How deep can ground penetrating radar penetrate in Birmingham ground conditions?</summary><p>In typical Birmingham clay and fill, a 200 MHz antenna reaches 3–4 m depth. In sandier deposits near the River Tame, penetration can extend to 6 m. Higher‑frequency antennas (900 MHz–1.6 GHz) are used for shallow, high‑resolution work to about 1 m depth.</p></details><details><summary>Do you need a GPR survey if you already have borehole logs for a site in Birmingham?</summary><p>Yes — boreholes provide point data, but GPR gives continuous profiles between boreholes. In Birmingham's brownfield areas, old <a href="/foundations/">foundations</a> or voids can exist just metres away from a borehole location. A GPR survey fills those gaps and reduces the chance of unexpected ground conditions during construction.</p></details><details><summary>What is the typical cost of a GPR survey in Birmingham?</summary><p>The typical cost for a GPR survey in Birmingham ranges from £590 to £1,000 depending on site area, antenna selection, and reporting detail. A small utility detection scan on a 0.5 ha site usually falls around the lower end, while a full cavity search with 200 MHz antenna on 1 ha costs closer to the upper end. We provide a fixed quote after a quick site visit.</p></details><details><summary>Can GPR detect plastic pipes or modern utility ducts?</summary><p>Yes, but the signal strength depends on the pipe diameter and the surrounding soil. Plastic pipes larger than 50 mm are usually detectable in Birmingham clay. Metal pipes and ducts give a stronger reflection. For small‑diameter plastic pipes in wet clay, we sometimes combine GPR with a cimentaciones superficiales study to improve confidence.</p></details>
             </section>
 
             <section>

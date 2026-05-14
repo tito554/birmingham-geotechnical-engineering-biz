@@ -174,6 +174,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#800020) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head>
 <body>
 
@@ -244,7 +280,7 @@ header.hero, .hero { position: relative !important; }
 
             <section>
                 <h2>Q&A</h2>
-                <details><summary>What is the difference between residual soil and transported soil in Birmingham?</summary><p>Residual soil forms in place from chemical weathering of the underlying Mercia Mudstone or Keuper Marl, preserving relict rock structure. Transported soil, like glacial till found in the Birmingham area, has been moved by ice or water and has no consistent relationship with the bedrock. This distinction is critical for foundation design because residual soils often have higher variability in strength and stiffness with depth.</p></details><details><summary>What tests are essential for residual soil characterization?</summary><p>We recommend a minimum suite of natural moisture content, <a href="../atterberg-limits/" data-interlink="1">Atterberg limits</a>, particle size distribution, and undrained triaxial strength on undisturbed samples. For sites with suspected collapse or shrink-swell behaviour, we add oedometer tests with controlled wetting and cyclic suction measurements. X-ray diffraction helps identify clay mineralogy when plasticity indices are high.</p></details><details><summary>How much does residual soil characterization cost in Birmingham?</summary><p>A typical investigation for a residential plot ranges between £740 and £2.490, depending on the number of boreholes, sample recovery method, and laboratory testing scope. Complex sites with deep weathering profiles or multiple trial pits may fall at the higher end. We provide a fixed-price quotation after a site walkover.</p></details><details><summary>Why is residual soil characterization important for Birmingham's brownfield sites?</summary><p>Many brownfield sites in Digbeth and the Jewellery Quarter have residual soils overlain by made ground. Without proper characterization, engineers may underestimate settlement from the soft residual layer beneath the fill. We have seen cases where differential movement between the two layers caused cracking in new-build flats. Our profile mapping prevents this by defining the interface and measuring compressibility of each stratum.</p></details>
+                <details><summary>What is the difference between residual soil and transported soil in Birmingham?</summary><p>Residual soil forms in place from chemical weathering of the underlying Mercia Mudstone or Keuper Marl, preserving relict rock structure. Transported soil, like glacial till found in the Birmingham area, has been moved by ice or water and has no consistent relationship with the bedrock. This distinction is critical for foundation design because residual soils often have higher variability in strength and stiffness with depth.</p></details><details><summary>What tests are essential for residual soil characterization?</summary><p>We recommend a minimum suite of natural moisture content, <a href="../atterberg-limits/" data-interlink="1">Atterberg limits</a>, particle size distribution, and undrained triaxial strength on undisturbed samples. For sites with suspected collapse or shrink-swell behaviour, we add oedometer tests with controlled wetting and cyclic suction measurements. X-ray diffraction helps identify clay mineralogy when plasticity indices are high.</p></details><details><summary>How much does residual soil characterization cost in Birmingham?</summary><p>A typical investigation for a residential plot ranges between £740 and £2.490, depending on the number of boreholes, sample recovery method, and <a href="/laboratory/">laboratory</a> testing scope. Complex sites with deep weathering profiles or multiple trial pits may fall at the higher end. We provide a fixed-price quotation after a site walkover.</p></details><details><summary>Why is residual soil characterization important for Birmingham's brownfield sites?</summary><p>Many brownfield sites in Digbeth and the Jewellery Quarter have residual soils overlain by made ground. Without proper characterization, engineers may underestimate settlement from the soft residual layer beneath the fill. We have seen cases where differential movement between the two layers caused cracking in new-build flats. Our profile mapping prevents this by defining the interface and measuring compressibility of each stratum.</p></details>
             </section>
 
             <section>
